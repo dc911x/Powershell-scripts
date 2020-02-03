@@ -47,7 +47,7 @@ Article explaining his full script [here](https://www.iphase.dk/local-administra
 
 This is Martin Bengtsson's work please visit his [blog's article](https://www.imab.dk/install-google-chrome-extensions-using-microsoft-intune/) for understanding this script and the usage.
 
-### ShowComputerIcon:
+### ShowComputerIcon.ps1:
 They asked me to set "This PC" on the desktop, I couldn't find any options to do this in Intune and most script just put a shortcut on the desktop where you still needed to fiddle with icon's etc...
 
 You can use the ".intunewin" file or package it yourself with Microsoft Win32 Content Prep Tool.
