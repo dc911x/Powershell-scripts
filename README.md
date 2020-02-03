@@ -1,5 +1,15 @@
 # Powershell-scripts
 
+- [Powershell-scripts](#powershell-scripts)
+  - [General](#general)
+    - [Activate_Windows.ps1](#activatewindowsps1)
+  - [Intune](#intune)
+    - [Make_useradmin_on_device.ps1](#makeuseradminondeviceps1)
+      - [Usage:](#usage)
+      - [Why:](#why)
+    - [Install-GoogleChromeExtensions.ps1](#install-googlechromeextensionsps1)
+    - [ShowComputerIcon:](#showcomputericon)
+
 ## General
 
 ### Activate_Windows.ps1
@@ -43,8 +53,14 @@ They asked me to set "This PC" on the desktop, I couldn't find any options to do
 You can use the ".intunewin" file or package it yourself with Microsoft Win32 Content Prep Tool.
 
 Showing the desktop icon via intune Win32App
-    Upload ShowComputerIcon.intunewin
-    Install command: powershell -ex bypass -file ShowComputerIcon.ps1
-    Uninstall command: powershell -ex bypass -file ShowComputerIcon.ps1 -uninstall
+
+```
+Upload ShowComputerIcon.intunewin 
+Install command: powershell -ex bypass -file ShowComputerIcon.ps1
+Uninstall command: powershell -ex bypass -file ShowComputerIcon.ps1 -uninstall
+```
+
 Manually configure detection rules
-    Use detection script: ShowComputerIconDETECTION.ps1
+```
+Use detection script: ShowComputerIconDETECTION.ps1
+```
