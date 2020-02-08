@@ -54,11 +54,7 @@ Article explaining his full script [here](https://www.iphase.dk/local-administra
 
 This is Martin Bengtsson's work please visit his [blog's article](https://www.imab.dk/install-google-chrome-extensions-using-microsoft-intune/) for understanding this script and the usage.
 
-<<<<<<< HEAD
 ### ShowComputerIcon.ps1
-=======
-### ShowComputerIcon.ps1:
->>>>>>> fa513b253dbe634525e50e156dab53064005c6c6
 They asked me to set "This PC" on the desktop, I couldn't find any options to do this in Intune and most script just put a shortcut on the desktop where you still needed to fiddle with icon's etc...
 
 You can use the ".intunewin" file or package it yourself with Microsoft Win32 Content Prep Tool.
@@ -75,7 +71,6 @@ Manually configure detection rules
 ```
 Use detection script: ShowComputerIconDETECTION.ps1
 ```
-<<<<<<< HEAD
 
 ### AllowNon-AdministratorsToInstallPrinterDrivers.ps1
 This is a translation of a well known GPO ("Allow non-administrators to install drivers for these device setup classes") under 
@@ -96,5 +91,3 @@ Manually configure detection rules
     - Value name: printer
     - Detection method: Key exists
 ```
-=======
->>>>>>> fa513b253dbe634525e50e156dab53064005c6c6
